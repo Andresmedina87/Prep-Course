@@ -1,0 +1,119 @@
+Introduccion a JavaScrip o JS
+
+Conseptos
+
+Variables: 
+esla forma de almacenar valores de algo para usar mas adelante, la palabra clabe para esto es var
+la forma de escribirlo es: var nombre de la variable = valor que queremos dar.
+
+Ejemplo: var toni = viejo
+
+Hay otras palabras clave para variables como son let y const
+
+let es muy parecida a var pero con unas diferencias, una de ellas es que se unsa para crear un nuevo
+"nivel de scope" lo cual veras mas adelante cuando tengas mas claros estos conceptos.
+
+const se usa para crear una variable de forma constante por eso la palabra es const, que hace
+referencia a constante es decir que no se podra cambiar 
+
+console.log
+este concepto nos permitira imprimir todo lo que pongamos en la consola de JS entre parentesis
+
+Tipos De Datos
+
+String o Instrumento de cuerdas:
+son elementos de texto los cuales siempre estan entre "comillas"
+como por ejemplo "capitan"
+en JS tambien pueden haber numeros entre comillas pero los valores no se ejecutaran como si no los tubieran
+Ejemplo
+ 1+1
+ 2
+pero si los ponemos en comillas nos dara de la siguente manera
+"1" + "1"
+ "11"
+
+Numeros
+como su palabra lo dice son valores numericos que usaremos para los distintos codigos que creemos en JS
+Ejemplo var num = 13;
+	var real = 13.2;
+	var nega = -12;
+
+por ultimo tenemos a:
+
+Boolean
+los booleanos basicamente nos dice si es falso o verdadero 
+como sabras los equipos de computo se manejan de eta manera con codigo binario es decir 1 y 0 o falfo y verdadero
+los valores en JS de un dato booleano son true y false estas son palabras clave.
+
+FUNCIONES
+las funciones me permiten usar codigos y ejecutarlos, estas son parte importante en el lemguaje de programacion y en JS, estas son invocables y las podemos configurar segun lo
+que estemos necesitando, basicamente estas funciones agrupoa codigos para evitar repetirlos. la palabra clave para esto es. 
+function y los escribimos de la siuente manera
+
+function mifuncion(argumento){}
+var otraFuncion = fuction(){};
+ console.log(""). veamos un Ejemplo:
+
+console.log("hola mi nombre es andy")
+console.log("tengo 34 años")
+ hola mi nombre es andy
+ tengo 34 años
+undefined
+function presentar(nombre, edad) {
+    console.log("hola mi nombre es " + nombre );
+    console.log("tengo " + edad + " años ");
+}
+undefined
+presentar("andy", 34);
+ hola mi nombre es andy
+ tengo 34 años 
+undefined
+
+ARGUMENTOS
+ cuando se declara un argumento es como si se declarara una variable dentro de la funcion.
+ya que ya sabemos ejecutar una funcion basica ahora vamos a agregar argumentos EJ:
+
+var nombre = "tony"
+function saluda(nombre) {
+	console.log("hola " + nombre);
+}
+undefined
+saluda("tony")
+undefined
+hola tony
+
+RETURN
+
+Hasta ahora venimos haciendo funciones que retornan undefined y vamos a ver las funciones que retornan
+Ejemplo:
+
+function siRetorna() {
+    return 15;
+}
+undefined
+var tony = siRetorna
+undefined
+ tony
+ 15
+
+CONTROL DE FLUJO 
+
+Nos permite agregar una logoca al codigo, como vimos en los booleanos. 
+Nos va a permitir hacer preguntas y ejecutar codigos segun las condiciones que ingresemos
+
+ejemplo booleano
+
+2 > 3
+false
+
+Ejemplo if
+
+if (edad > 21 ) {
+    console.log("eres mayor");
+} else {
+    console.log("eres menor");
+}
+eres menor
+undefined
+
+	
