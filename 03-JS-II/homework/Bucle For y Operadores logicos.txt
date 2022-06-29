@@ -1,0 +1,43 @@
+Bules For
+este cuenta con 3 partes la cuales estaran entre parentesis (): la variable, hastadonde se ejecutara y el incremento y siempre van separadas por ;
+ejemplo :
+for ( var i = 1; i <= 100; i++)
+
+esta se usa para tareas repetitivas, si queremos imprimir los numeros del 1 hasta 100 no tendremos que imprimir de
+1 en 1 y lo usaremos de la siguiente manera:
+
+for ( var i = 1; i <= 100; i++) {
+	console.log(i)
+}
+
+Operadores Logicos
+entre estos encontraremos AND que se escribe &&, OR que se escribe ||, y NOT que se escribe !
+
+&& esta evaluara ambas expresiones y si ambas son verdaderas devolvera true.
+si una o las dos son falsas devolvera fase
+Ejemplo:
+ if (100 > 10 && 10 === 10){
+	console.log(verdadero)
+}
+
+if (10 === 9 && 10 > 9){
+	console.log(falso)
+}
+
+|| el Operadro OR este determinara si una o ambas expresiones son verdaderas devolvera true
+y devolvera false si ambas expresiones son falsas
+Ejemplo
+
+if (100 > 10 || 10 === 10) {
+	console.log(ambas son verdaderas y se ejecutara)
+} 
+if (10 === 9 || 10 > 9){
+	console.log(una declaracion es verdadera por lo que || devolvera true)
+}
+
+if 10 === 9 || 1 > 9){
+	console.log(ambas son falsas por lo que || devolvera false) 
+
+! Este operador Niega o ivierte la afirmacion 
+Ejemplo !2 > 1 = true
+ 	!1 < 2 = true
