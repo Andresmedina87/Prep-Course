@@ -1,0 +1,16 @@
+ARRAY o ARREGLOS
+
+los array son objetos similares a una lista, cuyo prototipo proporciona métodos para efectuar operaciones de recorrido y
+de mutación. Tanto la longitud como el tipo de los elementos de un array son variables. Dado que la longitud de un array
+puede cambiar en cualquier momento. 
+Estos pueden ser como vimos anteriomente de tipo; Numerico, Strings, Booleanos como True o False, funciones. entre otros.
+
+Los array o arreglos se definen con "[]" y se separan por comas "," como mencionamos anteriormente estos pueden ser
+de distintos tipos. Ejemplo;
+var array = [1, 'andres', true, function() ];
+
+los elementos de la lista o de los array tienen una posicion la cual en lenguaje de programacion empiezan desde 0
+Ejemplo:
+ var array = [A, B, C, D]
+	      0  1  2  3
+
